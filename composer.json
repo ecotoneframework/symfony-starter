@@ -1,0 +1,30 @@
+{
+  "name": "ecotone/symfony-starter",
+  "license": "MIT",
+  "homepage": "https://docs.ecotone.tech",
+  "type": "library",
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "authors": [
+    {
+      "name": "Dariusz Gafka",
+      "email": "dgafka.mail@gmail.com"
+    }
+  ],
+  "keywords": [
+    "starter",
+    "EventSourcing",
+    "ecotone",
+    "symfony"
+  ],
+  "description": "Provides quickstart to build Ecotone Lite Application with Event Sourcing",
+  "autoload": {},
+  "autoload-dev": {},
+  "require": {
+    "ecotone/symfony-bundle": "^1.0",
+    "ecotone/jms-converter": "^1.0",
+    "ecotone/dbal": "^1.0"
+  },
+  "require-dev": {},
+  "extra": {}
+}
